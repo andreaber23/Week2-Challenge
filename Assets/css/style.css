@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    background-color: rgb(238, 238, 253);
+}
+header h1 {
+    font-size: 60px;
+}
+header {
+    background-color: rgb(48, 50, 62);
+    color: rgb(238, 238, 253);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 10px 20px
+}
+
+.profile-picture {
+    display: inline;
+}
+
+
+header ul li {
+    color:rgb(238, 238, 253);
+    list-style-type: none;
+    display: inline;
+    margin-left: 20px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+main{
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.section h2 {
+    font-size: 20px;
+    color: rgb(48, 50, 62);
+    display: inline;
+    font-size: 40px;
+    padding-left: 50px;
+    padding-top: 200px;
+}
+
+p {
+    font-size: 15px;
+    padding-left: 300px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    display: inline;
+}
+
+#webapp1 {
+    display: block;
+    margin:auto;
+}
+
+.Webapp {
+    width:10%;
+    height: 200px;
+    display: block;
+    margin-top: 20px;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
