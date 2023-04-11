@@ -6,6 +6,7 @@
 }
 body {
     background-color: rgb(238, 238, 253);
+    display: block;
 }
 header h1 {
     font-size: 60px;
@@ -33,7 +34,8 @@ header ul li {
     text-decoration: underline;
 }
 #About-Me {
-    width: 1300px;
+    width: 100%;
+    height: 300px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -45,57 +47,95 @@ p {
     line-height: 20px;
     letter-spacing: 1px;
     padding-top: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
     margin-bottom: 20px;
     margin-left: 90px;
     display: inline;
-}
-div h2{
-    font-size: 45px;
-    display: inline;
-    align-items: right;
-    margin-left: 50px;
-    background-color: yellow;
+    text-align: justify;
 }
 
-.container{
+h2 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    font-size: 40px;
+    text-align: end;
+    position: relative;
+    color: rgb(48, 50, 62);
+}   
+
+section {
+    padding: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-block-end:10px double rgb(48, 50, 62);
+}
+
+ 
+.projects{
+    width: 100%;
+    margin-top: -40px;
+    margin-bottom: 8px;
+    margin-left: -40px;
     display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  align-content: last baseline;
-  
+    flex-wrap: wrap;
+    justify-content:space-between;
+    
+}
+.main-project {
+    background-image: url(http://via.placeholder.com/640x360);
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-left: 390px;
+    margin-right: 120px;
+    display: flex;
+    align-items: flex-end;
+    border: 8px solid rgb(74, 87, 158);
 }
 .project {
-  padding: 10px;
-  width: 500px;
-  text-align: center;
-  display: block;
+    width: 32%;
+    height: 140px; 
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 50px;
+    padding-inline: 0px;
+    border: 8px solid rgb(74, 87, 158);
+    background-image: url(http://via.placeholder.com/640x360);
+    background-position: center;
 }
 
-#webapp1 {
-    display: block;
-    border-radius: 40;
-    width: 1000px;
-    height: 400;
-    margin-left: 50;
+.top-project {
+    color: white;
+    font-size: 17px;
+    background-color: #46304f;
+    float: left;
+    border: solid #46304f 20px;
+    border-bottom: 40px;
+    margin-bottom: 7px; 
+}
+.project nav {
+    color: white;
+    font-size: 17px;
+    background-color: #46304f;
+    float: left;
+    border: solid #46304f 20px;
+    border-bottom: 40px;
+    margin-top: 70px;
 }
 
-.contact-me-box h2 {
-    font-size: 45px;
-    display: inline;
-    margin-left: 50px;
-
-}
 .contact-me-box{
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
     cursor: pointer;
     padding-top: 10px;
+    font-size: 40px;
 }
 .contact-me-box ul li{
+    display: flex;
     margin-left: 100px;
     font-size: 20px;
     list-style-type: none;
