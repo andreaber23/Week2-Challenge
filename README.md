@@ -14,6 +14,8 @@ To use this Portfolio, you can click on any of the three section at the top righ
 
 
 <img width="1434" alt="Screen Shot 2023-04-12 at 3 58 37 PM" src="https://user-images.githubusercontent.com/128647787/231572806-cdce27fa-9410-4bac-8da5-7fc257e79957.png">
+<img width="1379" alt="Screen Shot 2023-04-12 at 4 10 27 PM" src="https://user-images.githubusercontent.com/128647787/231573246-3bb5e075-d657-469e-9541-c6e62b9da538.png">
+
 
 ## Credits
 
