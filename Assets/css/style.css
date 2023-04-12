@@ -5,16 +5,16 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 body {
-    background-color: rgb(238, 238, 253);
+    background-color: rgb(243, 243, 255);
     display: block;
 }
 header h1 {
     font-size: 60px;
 }
 header {
-    background-color: rgb(48, 50, 62);
-    color: rgb(238, 238, 253);
-    font-size: 20px;
+    background-color: rgb(108, 122, 199);
+    color: rgb(243, 243, 255);
+    font-size: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -53,23 +53,26 @@ p {
     margin-left: 90px;
     display: inline;
     text-align: justify;
+    color: rgb(82, 77, 117);
 }
 
 h2 {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
-    margin-left: 40px;
+    margin-left: 80px;
     font-size: 40px;
     text-align: end;
     position: relative;
-    color: rgb(48, 50, 62);
+    color: rgb(108, 122, 199);
+    
 }   
 
 section {
     padding: 15px;
     margin-top: 40px;
     margin-bottom: 40px;
-    border-block-end:10px double rgb(48, 50, 62);
+    border-block-end:10px double rgb(108, 122, 199);
+
 }
 
  
@@ -94,35 +97,38 @@ section {
     margin-right: 120px;
     display: flex;
     align-items: flex-end;
-    border: 8px solid rgb(74, 87, 158);
+    border: 8px solid rgb(108, 122, 199);
+    cursor: pointer;
 }
 .project {
-    width: 32%;
+    width: 31%;
     height: 140px; 
     margin-bottom: 30px;
-    margin-left: 100px;
+    margin-left: 200px;
     margin-right: 50px;
-    padding-inline: 0px;
-    border: 8px solid rgb(74, 87, 158);
+    border: 8px solid rgb(108, 122, 199);
+    overflow: auto;
     background-image: url(http://via.placeholder.com/640x360);
     background-position: center;
 }
 
 .top-project {
-    color: white;
+    color: #9d8ec4;
     font-size: 17px;
-    background-color: #46304f;
+    background-color: #9d8ec4;
     float: left;
-    border: solid #46304f 20px;
+    border: solid #9d8ec4 20px;
     border-bottom: 40px;
     margin-bottom: 7px; 
+    font-weight: bold;
 }
 .project nav {
     color: white;
+    font-weight: bold;
     font-size: 17px;
-    background-color: #46304f;
+    background-color: #9d8ec4;
     float: left;
-    border: solid #46304f 20px;
+    border: solid #9d8ec4 20px;
     border-bottom: 40px;
     margin-top: 70px;
 }
@@ -133,6 +139,8 @@ section {
     cursor: pointer;
     padding-top: 10px;
     font-size: 40px;
+    padding-left: -0px;
+    
 }
 .contact-me-box ul li{
     display: flex;
@@ -141,13 +149,17 @@ section {
     list-style-type: none;
     display: inline;
     text-decoration: underline;
-
+    color: rgb(108, 122, 199);
 }
 
-a {
+
+a:link, a:visited{
     text-decoration: none;
+    color: rrgb(82, 77, 117);
+
 }
-a:visited {
-    color: white;
-    text-decoration: none;
+html 
+{
+    display: block;
 }
+
