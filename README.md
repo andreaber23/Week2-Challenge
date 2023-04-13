@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-To use this Portfolio, you can click on any of the three section at the top right corner: about me, work, or contact me. Once you click on one, it will take you to the corresponded section. In about me section, you will find a short description about the me. In the work section, the biggest picture is link to my Github (this one will be my most important web app once I have one); the other four are linked to other four future projects (I don't have any at the moment). You just have to click any of those and you will be redirecetd to the page that has the web app (in the future, for now my github). In the contact section, my phone number, email and github are found. If clicking my email, you will be redirected to the platform where you send your emails. 
+To use this Portfolio, you can click on any of the three section at the top right corner: about me, work, or contact me. Once you click on one, it will take you to the corresponded section. In about me section, you will find a short description about the me. In the work section, the biggest picture is link to my Github (this one will be my most important web app once I have one); the other four are linked to other four future projects (I don't have any at the moment). Just click in the little rectangle where is the name of the project and you will be redirecetd to the page that has the web app (in the future, for now my github). In the contact section, my phone number, email and github are found. If clicking my email, you will be redirected to the platform where you send your emails. 
 
 
 <img width="1434" alt="Screen Shot 2023-04-12 at 3 58 37 PM" src="https://user-images.githubusercontent.com/128647787/231572806-cdce27fa-9410-4bac-8da5-7fc257e79957.png">
