@@ -111,6 +111,11 @@ section {
     background-image: url(http://via.placeholder.com/640x360);
     background-position: center;
 }
+#project-2{
+  background-image: url(https://www.workflowmax.com/hubfs/budget%20900x400v2.png);
+  background-position: auto;
+  display: block;
+}
 
 .top-project {
     color: #9d8ec4;
