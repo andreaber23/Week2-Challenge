@@ -112,9 +112,8 @@ section {
     background-position: center;
 }
 #project-2{
-  background-image: url(https://www.workflowmax.com/hubfs/budget%20900x400v2.png);
-  background-position: auto;
-  display: block;
+  background-image: url(Week2/Day1/Week2-Challenge/Assets/images/Budgify.png);
+  background-size: 10%;
 }
 
 .top-project {
